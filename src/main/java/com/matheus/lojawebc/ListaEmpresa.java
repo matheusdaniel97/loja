@@ -20,8 +20,12 @@ public class ListaEmpresa extends HttpServlet {
         List<Empresa> lista = banco.getEmpresas();
 
         request.setAttribute("empresas", lista);
+        for (Empresa empresa : lista) {
+            System.out.println(empresa.getNome());
+        }
 
         RequestDispatcher rd = request.getRequestDispatcher("/listaEmpresas.jsp");
+        System.out.println("Passou aqui");
         rd.forward(request, response);
     }
 }
