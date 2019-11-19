@@ -1,2 +1,5 @@
 com\matheus\lojawebc\CadastroEmpresa.class
+com\matheus\lojawebc\Empresa.class
+com\matheus\lojawebc\ListaEmpresa.class
+com\matheus\lojawebc\Banco.class
 com\matheus\lojawebc\ContatoServlet.class

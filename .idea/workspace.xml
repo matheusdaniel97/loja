@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae25458-5973-4c1e-902b-c6aacf2a669f" name="Default Changelist" comment="" />
+    <list default="true" id="bae25458-5973-4c1e-902b-c6aacf2a669f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/ListaEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/listaEmpresas.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/novaEmpresaCriada.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/CadastroEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/CadastroEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/CadastroEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/CadastroEmpresa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,11 +22,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -25,10 +39,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1Rqlr0jJkOO9UmZncopFCL2vkCZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gerenciador" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.matheus.lojawebc" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -60,5 +80,18 @@
       <updated>1570402701594</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

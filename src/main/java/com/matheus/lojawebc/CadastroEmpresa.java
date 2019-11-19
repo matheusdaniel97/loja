@@ -1,5 +1,5 @@
 package com.matheus.lojawebc;
-
+import javax.servlet.RequestDispatcher;
 import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,18 +13,20 @@ import java.io.PrintWriter;
 public class CadastroEmpresa extends HttpServlet {
 
     @Override
-    protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 
         System.out.println("Cadastrando empresa");
 
         String nomeEmpresa = req.getParameter("nome");
+        Empresa empresa = new Empresa();
+        empresa.setNome(nomeEmpresa);
 
-        PrintWriter out = resp.getWriter();
-        out.println("<html>");
-        out.println("<body>");
-        out.println("Empresa: " + nomeEmpresa);
-        out.println("</body>");
-        out.println("</html>");
+        Banco banco = new Banco();
+        banco.adiciona(empresa);
 
+        //Chamando o JSP
+        RequestDispatcher rd = req.getRequestDispatcher("/novaEmpresaCriada.jsp");
+        req.setAttribute("empresa", empresa.getNome());
+        rd.forward(req, resp);
     }
 }
