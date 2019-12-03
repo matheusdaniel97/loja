@@ -1,4 +1,7 @@
 <%@ page import="java.util.List, com.matheus.lojawebc.Empresa" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,16 +10,14 @@
 </head>
 <body>
 
-    Lista de empresas: <br />
+Lista de empresas: <br />
         <ul>
-        <%
-            List<Empresa> lista = (List<Empresa>)request.getAttribute("empresas");
-            for (Empresa empresa : lista) {
-        %>
-            <li><%= empresa.getNome() %></li>
-        <%
-            }
-        %>
+            <c:forEach items="${empresas}" var="empresa">
+                <li>
+                ${empresa.nome} - <fmt:formatDate value="${empresa.dataAbertura}" pattern="dd/MM/yyyy"/>
+                <a href="/loja/removeEmpresa?id=${empresa.id}">remove</a>
+                </li>
+            </c:forEach>
         </ul>
 
 </body>

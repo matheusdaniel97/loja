@@ -11,21 +11,20 @@ import java.util.List;
 
 @WebServlet("/listaEmpresas")
 public class ListaEmpresa extends HttpServlet {
-    private static final long serialVersionUID = 1L;
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    protected void service(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
         Banco banco = new Banco();
         List<Empresa> lista = banco.getEmpresas();
 
-        request.setAttribute("empresas", lista);
+        req.setAttribute("empresas", lista);
         for (Empresa empresa : lista) {
             System.out.println(empresa.getNome());
         }
 
-        RequestDispatcher rd = request.getRequestDispatcher("/listaEmpresas.jsp");
+        RequestDispatcher rd = req.getRequestDispatcher("/listaEmpresas.jsp");
         System.out.println("Passou aqui");
-        rd.forward(request, response);
+        rd.forward(req, resp);
     }
 }
