@@ -1,30 +1,29 @@
 package com.matheus.lojawebc;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.Servlet;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@WebServlet(urlPatterns = "/cadastroEmpresa")
-public class CadastroEmpresa extends HttpServlet {
+@WebServlet ("alteraEmpresa")
+public class AlteraEmpresa extends HttpServlet {
 
     @Override
-    protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("Cadastrando empresa");
+        System.out.println("Alterando empresa");
 
         String nomeEmpresa = req.getParameter("nome");
         String paramDataEmpresa = req.getParameter("data");
+        String paramId = req.getParameter("id");
+        Integer id = Integer.valueOf(paramId);
 
         Date dataAbertura = null;
-
         try {
             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
             dataAbertura = sdf.parse(paramDataEmpresa);
@@ -32,15 +31,14 @@ public class CadastroEmpresa extends HttpServlet {
             throw new ServletException(e);
         }
 
-        Empresa empresa = new Empresa();
+        System.out.println(id);
+
+        Banco banco = new Banco();
+        Empresa empresa = banco.buscaEmpresaId(id);
         empresa.setNome(nomeEmpresa);
         empresa.setDataAbertura(dataAbertura);
 
-        Banco banco = new Banco();
-        banco.adiciona(empresa);
-
-        req.setAttribute("empresa", empresa.getNome());
-
         resp.sendRedirect("listaEmpresas");
+
     }
 }

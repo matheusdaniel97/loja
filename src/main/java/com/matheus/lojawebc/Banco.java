@@ -1,6 +1,7 @@
 package com.matheus.lojawebc;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
@@ -30,4 +31,15 @@ public class Banco {
             }
         }
     }
+
+    public Empresa buscaEmpresaId(Integer id) {
+        for (Empresa empresa:lista
+             ) {
+            if(empresa.getId()==id){
+                return empresa;
+            }
+        }
+        return null;
+    }
+
 }

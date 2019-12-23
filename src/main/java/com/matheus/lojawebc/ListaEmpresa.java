@@ -24,7 +24,6 @@ public class ListaEmpresa extends HttpServlet {
         }
 
         RequestDispatcher rd = req.getRequestDispatcher("/listaEmpresas.jsp");
-        System.out.println("Passou aqui");
         rd.forward(req, resp);
     }
 }
