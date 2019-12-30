@@ -1,7 +1,6 @@
 package com.matheus.lojawebc;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
@@ -9,8 +8,6 @@ public class Banco {
 
     private static List<Empresa> lista = new ArrayList<>();
     private static Integer chaveSequencial = 1;
-
-
 
     public void adiciona(Empresa empresa) {
         empresa.setId(chaveSequencial++);

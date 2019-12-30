@@ -1,7 +1,5 @@
 package com.matheus.lojawebc;
 
-import br.com.caelum.stella.tinytype.CPF;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
