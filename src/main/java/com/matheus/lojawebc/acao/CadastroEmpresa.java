@@ -11,7 +11,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class CadastroEmpresa {
+public class CadastroEmpresa implements Acao{
 
     public String executa(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

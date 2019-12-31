@@ -13,7 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-public class AlteraEmpresa {
+public class AlteraEmpresa implements Acao{
 
     public String executa(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

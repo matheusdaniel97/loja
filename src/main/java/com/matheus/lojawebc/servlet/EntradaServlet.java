@@ -17,9 +17,19 @@ public class EntradaServlet extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String paramAcao = req.getParameter("acao");
-        String nome = null;
+        String nome;
+        String nomeDaClasse = "com.matheus.lojawebc.acao." + paramAcao;
 
-        if(paramAcao.equals("ListaEmpresas")){
+        try {
+            Class classe = Class.forName(nomeDaClasse);
+            Acao acao = (Acao) classe.newInstance();
+            nome = acao.executa(req, resp);
+        }
+        catch (ClassNotFoundException | InstantiationException | IllegalAccessException e){
+            throw new ServletException(e);
+        }
+
+/*        if(paramAcao.equals("ListaEmpresas")){
 
             ListaEmpresas acao = new ListaEmpresas();
             nome = acao.executa(req, resp);
@@ -44,16 +54,21 @@ public class EntradaServlet extends HttpServlet {
             CadastroEmpresa acao = new CadastroEmpresa();
             nome = acao.executa(req, resp);
 
+        } else if (paramAcao.equals("FormCadastrarEmpresa")){
+
+            FormCadastrarEmpresa acao = new FormCadastrarEmpresa();
+            nome = acao.executa(req, resp);
+
         }
 
+ */
         String[] tipoEEndereco = nome.split(":");
         if(tipoEEndereco[0].equals("forward")) {
-            RequestDispatcher rd = req.getRequestDispatcher(tipoEEndereco[1]);
+            RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/view/" + tipoEEndereco[1]);
             rd.forward(req, resp);
         } else {
             resp.sendRedirect(tipoEEndereco[1]);
 
         }
-
     }
 }
