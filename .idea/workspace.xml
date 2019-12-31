@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae25458-5973-4c1e-902b-c6aacf2a669f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/AlteraEmpresa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/CadastroEmpresa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/ListaEmpresas.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/MostraEmpresa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/RemoveEmpresa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/modelo/Banco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/ContatoServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/EntradaServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/AlteraEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/AlteraEmpresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/CadastroEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/CadastroEmpresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/ListaEmpresas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/ListaEmpresas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/MostraEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/MostraEmpresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/RemoveEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/RemoveEmpresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/ContatoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/ContatoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/EntradaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/EntradaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/formAlteraEmpresa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/formAlteraEmpresa.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/formNovaEmpresa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/formNovaEmpresa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/listaEmpresas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listaEmpresas.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/AlteraEmpresa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/Banco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/CadastroEmpresa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/ContatoServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/modelo/Empresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/ListaEmpresa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/MostraEmpresa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/RemoveEmpresa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lojawebc.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lojawebc/WEB-INF/classes/com/matheus/lojawebc/ContatoServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lojawebc/WEB-INF/lib/caelum-stella-core-2.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lojawebc/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lojawebc/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="bae25458-5973-4c1e-902b-c6aacf2a669f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
