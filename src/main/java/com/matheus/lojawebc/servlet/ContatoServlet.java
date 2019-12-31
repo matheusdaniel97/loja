@@ -1,4 +1,4 @@
-package com.matheus.lojawebc;
+package com.matheus.lojawebc.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

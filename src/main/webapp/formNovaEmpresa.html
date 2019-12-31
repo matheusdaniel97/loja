@@ -6,12 +6,12 @@
 </head>
 <body>
 
-    <form action="/loja/cadastroEmpresa" method="post">
+    <form action="/loja/entrada" method="post">
 
         Nome: <input type="text" name="nome" />
         Data de abertura: <input type="text" name="data" />
-
-        <input type="submit" />
+        <input type="hidden" name="acao" value="CadastroEmpresa"/>
+        <input type="submit"/>
     </form>
 
 </body>

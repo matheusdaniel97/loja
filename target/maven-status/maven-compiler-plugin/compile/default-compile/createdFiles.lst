@@ -1,7 +1,9 @@
-com\matheus\lojawebc\AlteraEmpresa.class
-com\matheus\lojawebc\Banco.class
-com\matheus\lojawebc\CadastroEmpresa.class
-com\matheus\lojawebc\Empresa.class
-com\matheus\lojawebc\ListaEmpresa.class
-com\matheus\lojawebc\RemoveEmpresa.class
-com\matheus\lojawebc\ContatoServlet.class
+com\matheus\lojawebc\acao\CadastroEmpresa.class
+com\matheus\lojawebc\servlet\ContatoServlet.class
+com\matheus\lojawebc\acao\RemoveEmpresa.class
+com\matheus\lojawebc\servlet\EntradaServlet.class
+com\matheus\lojawebc\modelo\Banco.class
+com\matheus\lojawebc\modelo\Empresa.class
+com\matheus\lojawebc\acao\MostraEmpresa.class
+com\matheus\lojawebc\acao\AlteraEmpresa.class
+com\matheus\lojawebc\acao\ListaEmpresas.class

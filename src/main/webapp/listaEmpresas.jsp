@@ -1,4 +1,4 @@
-<%@ page import="java.util.List, com.matheus.lojawebc.Empresa" %>
+<%@ page import="java.util.List, com.matheus.lojawebc.modelo.Empresa" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
@@ -15,8 +15,8 @@ Lista de empresas: <br />
             <c:forEach items="${empresas}" var="empresa">
                 <li>
                 ${empresa.nome} - <fmt:formatDate value="${empresa.dataAbertura}" pattern="dd/MM/yyyy"/>
-                <a href="/loja/mostraEmpresas?id=${empresa.id}">editar</a>
-                <a href="/loja/removeEmpresa?id=${empresa.id}">remove</a>
+                <a href="/loja/entrada?acao=MostraEmpresa&id=${empresa.id}">editar</a>
+                <a href="/loja/entrada?acao=RemoveEmpresa&id=${empresa.id}">remove</a>
                 </li>
             </c:forEach>
         </ul>

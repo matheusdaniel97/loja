@@ -1,4 +1,4 @@
-package com.matheus.lojawebc;
+package com.matheus.lojawebc.modelo;
 
 import java.util.Date;
 
