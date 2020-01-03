@@ -2,29 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bae25458-5973-4c1e-902b-c6aacf2a669f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/Acao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/FormCadastrarEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/FormLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/Acao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/AlteraEmpresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/CadastroEmpresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/FormCadastrarEmpresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/FormLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/ListaEmpresas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/Logout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/MostraEmpresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/RemoveEmpresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/modelo/Banco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/modelo/Empresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/modelo/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/ContatoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/EntradaServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/AlteraEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/AlteraEmpresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/CadastroEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/CadastroEmpresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/ListaEmpresas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/ListaEmpresas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/MostraEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/MostraEmpresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/RemoveEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/RemoveEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Banco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/EntradaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/EntradaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/formAlteraEmpresa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formAlteraEmpresa.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/formNovaEmpresa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formNovaEmpresa.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/listaEmpresas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaEmpresas.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/novaEmpresaCriada.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/novaEmpresaCriada.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/AlteraEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/AlteraEmpresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/CadastroEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/CadastroEmpresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/ListaEmpresas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/ListaEmpresas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/MostraEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/MostraEmpresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/EntradaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/EntradaServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaEmpresas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaEmpresas.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/formAlteraEmpresa_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/formAlteraEmpresa_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/listaEmpresas_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/listaEmpresas_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formAlteraEmpresa_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formAlteraEmpresa_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formNovaEmpresa_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formLogin_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formNovaEmpresa_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formLogin_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/listaEmpresas_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/listaEmpresas_jsp.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />

@@ -5,10 +5,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Lista empresas</title>
 </head>
 <body>
+
+<a href="entrada?acao=Logout">Logout</a>
+
+<br>
+<br>
+<br>
+
+Usuario logado: ${usuarioLogado.login}
+
+<br>
+<br>
+<br>
 
 Lista de empresas: <br />
         <ul>

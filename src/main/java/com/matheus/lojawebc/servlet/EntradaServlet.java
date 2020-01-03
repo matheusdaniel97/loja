@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 
@@ -17,6 +18,16 @@ public class EntradaServlet extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String paramAcao = req.getParameter("acao");
+
+        HttpSession session = req.getSession();
+        boolean usuarioNaoLogado = (session.getAttribute("usuarioLogado") == null);
+        boolean acaoProtegida = !(paramAcao.equals("Login") || paramAcao.equals("FormLogin"));
+
+        if(acaoProtegida & usuarioNaoLogado){
+            resp.sendRedirect("entrada?acao=FormLogin");
+            return;
+        }
+
         String nome;
         String nomeDaClasse = "com.matheus.lojawebc.acao." + paramAcao;
 
@@ -29,39 +40,6 @@ public class EntradaServlet extends HttpServlet {
             throw new ServletException(e);
         }
 
-/*        if(paramAcao.equals("ListaEmpresas")){
-
-            ListaEmpresas acao = new ListaEmpresas();
-            nome = acao.executa(req, resp);
-
-        } else if (paramAcao.equals("RemoveEmpresa")){
-
-            RemoveEmpresa acao = new RemoveEmpresa();
-            nome = acao.executa(req, resp);
-
-        } else if (paramAcao.equals("MostraEmpresa")){
-
-            MostraEmpresa acao = new MostraEmpresa();
-            nome = acao.executa(req, resp);
-
-        } else if (paramAcao.equals("AlteraEmpresa")){
-
-            AlteraEmpresa acao = new AlteraEmpresa();
-            nome = acao.executa(req, resp);
-
-        } else if (paramAcao.equals("CadastroEmpresa")){
-
-            CadastroEmpresa acao = new CadastroEmpresa();
-            nome = acao.executa(req, resp);
-
-        } else if (paramAcao.equals("FormCadastrarEmpresa")){
-
-            FormCadastrarEmpresa acao = new FormCadastrarEmpresa();
-            nome = acao.executa(req, resp);
-
-        }
-
- */
         String[] tipoEEndereco = nome.split(":");
         if(tipoEEndereco[0].equals("forward")) {
             RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/view/" + tipoEEndereco[1]);
