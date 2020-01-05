@@ -1,25 +1,31 @@
 package com.matheus.lojawebc.servlet;
 
-import com.matheus.lojawebc.acao.*;
+import com.matheus.lojawebc.acao.Acao;
 
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
+import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-
-//@WebServlet("/entrada")
-public class EntradaServlet extends HttpServlet {
+public class ControladorFilter implements Filter {
     @Override
-    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    public void init(FilterConfig filterConfig) throws ServletException {
+
+    }
+
+    @Override
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+
+        System.out.println("Filtro de controlador");
+
+        HttpServletRequest req = (HttpServletRequest) servletRequest;
+        HttpServletResponse resp = (HttpServletResponse) servletResponse;
 
         String paramAcao = req.getParameter("acao");
 
         String nome;
+
         String nomeDaClasse = "com.matheus.lojawebc.acao." + paramAcao;
 
         try {
@@ -39,5 +45,12 @@ public class EntradaServlet extends HttpServlet {
             resp.sendRedirect(tipoEEndereco[1]);
 
         }
+    }
+
+
+
+    @Override
+    public void destroy() {
+
     }
 }

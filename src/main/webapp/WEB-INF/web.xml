@@ -4,4 +4,32 @@
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
+
+    <filter>
+        <filter-name>AF</filter-name>
+        <filter-class>com.matheus.lojawebc.servlet.AutorizacaoFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AF</filter-name>
+        <url-pattern>/entrada</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>MF</filter-name>
+        <filter-class>com.matheus.lojawebc.servlet.MonitoramentoFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MF</filter-name>
+        <url-pattern>/entrada</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>CF</filter-name>
+        <filter-class>com.matheus.lojawebc.servlet.ControladorFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CF</filter-name>
+        <url-pattern>/entrada</url-pattern>
+    </filter-mapping>
+
 </web-app>
