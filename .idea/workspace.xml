@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bae25458-5973-4c1e-902b-c6aacf2a669f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/AutorizacaoFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/ControladorFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/MonitoramentoFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/CadastrarUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/FormCadastrarUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formNovoUsuario.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/EntradaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/EntradaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/EntradaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/EntradaServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/AlteraEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/AlterarEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/CadastroEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/acao/CadastrarEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/modelo/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/AutorizacaoFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/AutorizacaoFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/lojawebc/servlet/ContatoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formAlteraEmpresa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formAlteraEmpresa.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formNovaEmpresa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/formNovaEmpresa.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaEmpresas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaEmpresas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/novaEmpresaCriada.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/CadastroEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/acao/CadastroEmpresa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/modelo/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/modelo/Banco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/AutorizacaoFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matheus/lojawebc/servlet/AutorizacaoFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formLogin_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formLogin_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formLogin_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/formLogin_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/listaEmpresas_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/listaEmpresas_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/listaEmpresas_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/listaEmpresas_jsp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,24 +59,30 @@
     </option>
   </component>
   <component name="ProjectId" id="1Rqlr0jJkOO9UmZncopFCL2vkCZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../teste/loja" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/gson-2.8.5.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.matheus.lojawebc.acao" />
-      <recent name="com.matheus.lojawebc" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\manch\OneDrive\Área de Trabalho\Projetos git\loja\src\main\webapp\WEB-INF\view" />
       <recent name="C:\Users\manch\OneDrive\Área de Trabalho\Projetos git\loja\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manch\OneDrive\Área de Trabalho\Projetos git\loja\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.matheus.lojawebc.acao" />
+      <recent name="com.matheus.lojawebc" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -141,6 +162,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />

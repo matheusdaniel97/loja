@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Banco {
 
-    private static List<Empresa> lista = new ArrayList<>();
+    private static List<Empresa> listaEmpresa = new ArrayList<>();
     private static List<Usuario> listaUsuario = new ArrayList<>();
     private static Integer chaveSequencial = 1;
 
@@ -18,8 +18,8 @@ public class Banco {
         Empresa empresa2 = new Empresa();
         empresa2.setId(chaveSequencial++);
         empresa2.setNome("Matheus SA");
-        lista.add(empresa);
-        lista.add(empresa2);
+        listaEmpresa.add(empresa);
+        listaEmpresa.add(empresa2);
 
         //Criando dois usuários estáticos
         Usuario usuario = new Usuario();
@@ -32,17 +32,17 @@ public class Banco {
         listaUsuario.add(usuario2);
     }
 
-    public void adiciona(Empresa empresa) {
+    public void adicionaEmpresa(Empresa empresa) {
         empresa.setId(chaveSequencial++);
-        lista.add(empresa);
+        listaEmpresa.add(empresa);
     }
 
     public List<Empresa> getEmpresas(){
-        return Banco.lista;
+        return Banco.listaEmpresa;
     }
 
     public void removeEmpresa(Integer id) {
-        Iterator<Empresa> it = lista.iterator();
+        Iterator<Empresa> it = listaEmpresa.iterator();
 
         while(it.hasNext()) {
             Empresa emp = it.next();
@@ -53,7 +53,7 @@ public class Banco {
     }
 
     public Empresa buscaEmpresaId(Integer id) {
-        for (Empresa empresa:lista
+        for (Empresa empresa: listaEmpresa
              ) {
             if(empresa.getId()==id){
                 return empresa;
@@ -70,5 +70,8 @@ public class Banco {
             }
         }
         return null;
+    }
+    public void adicionaUsuario(Usuario usuario) {
+        listaUsuario.add(usuario);
     }
 }

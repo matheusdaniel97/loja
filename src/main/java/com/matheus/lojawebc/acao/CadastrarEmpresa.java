@@ -11,7 +11,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class CadastroEmpresa implements Acao{
+public class CadastrarEmpresa implements Acao{
 
     public String executa(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -34,7 +34,7 @@ public class CadastroEmpresa implements Acao{
         empresa.setDataAbertura(dataAbertura);
 
         Banco banco = new Banco();
-        banco.adiciona(empresa);
+        banco.adicionaEmpresa(empresa);
 
         req.setAttribute("empresa", empresa.getNome());
 

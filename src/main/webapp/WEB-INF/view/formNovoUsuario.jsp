@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Novo usuario</title>
 </head>
 <body>
 
@@ -10,21 +10,9 @@
 
         Login: <input type="text" name="login" />
         Senha: <input type="password" name="senha" />
-        <input type="hidden" name="acao" value="Login"/>
+        <input type="hidden" name="acao" value="CadastrarUsuario"/>
         <input type="submit"/>
     </form>
-
-<br>
-<br>
-<a href="/loja/entrada?acao=FormCadastrarUsuario">Cadastre-se</a>
-<br>
-<br>
-<br>
--Se preferir utilize os dados abaixo:
-<br>
--Login: Matheus
-<br>
--Senha: Matheus123
 
 </body>
 </html>

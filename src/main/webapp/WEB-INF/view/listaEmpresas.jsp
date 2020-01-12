@@ -32,6 +32,9 @@ Lista de empresas: <br />
                 </li>
             </c:forEach>
         </ul>
+        <br>
+        <br>
+        <a href="/loja/entrada?acao=FormCadastrarEmpresa">Cadastrar empresa</a>
 
 </body>
 </html>
